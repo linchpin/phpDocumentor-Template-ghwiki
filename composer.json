@@ -1,0 +1,19 @@
+{
+  "name": "linchpin/phpDocumentor-Template-ghwiki",
+  "version": "1.0.0",
+  "description": "phpDocumentor Template for github Wiki. Forked from oliveratgithub/phpDocumentor-Template-ghwiki",
+  "homepage": "https://github.com/linchpin/phpDocumentor-Template-ghwiki",
+  "authors": [
+    {
+      "name": "Aaron Ware",
+      "email": "aaron@linchpin.com",
+      "role": "Developer"
+    },
+  ],
+  "support": {
+    "issues": "https://github.com/linchpin/phpDocumentor-Template-ghwiki/issues",
+    "source": "https://github.com/linchpin/phpDocumentor-Template-ghwiki"
+  },
+  "license": "GPLv3",
+  "type": "library",
+}
