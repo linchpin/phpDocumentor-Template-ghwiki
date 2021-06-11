@@ -8,16 +8,18 @@ It is intended to create the code documentation as markdown files, fully compati
 ### Example
 You can find a live example in this GitHub repository: [zorgch/zorg-code/wiki](https://github.com/zorgch/zorg-code/wiki)
 
-## Installation and usage
+## Installation
+
+1. Via composer `composer require linchpin/phpdocumentor-template-markdown`
+2. Download the latest release
+
 ### Pre-requisites
 * [phpDocumentor](https://github.com/phpDocumentor/phpDocumentor/releases) must be installed or available using its `.phar`
 * You have a GitHub Wiki [cloned locally](https://help.github.com/en/github/building-a-strong-community/adding-or-editing-wiki-pages#adding-or-editing-wiki-pages-locally)
 
 ### Generate GitHub Wiki Markdown from your code
-1. Download & unpack - or clone - this repository to your computer
-2. Specifiy this template `phpDocumentor-Template-ghwiki` while generating your code documentation using `phpDocumentor`:
-
-`php ./phpDocumentor.phar -d "/path/to/my/sourcecode" -t "/path/to/local/github-wiki" --template="/path/to/phpDocumentor-Template-ghwiki" --cache-folder "/path/to/store/cache" --title "My code project"`
+2. Specifiy this template `phpdocumentor-template-markdown` while generating your code documentation using `phpDocumentor`:
+`php ./phpDocumentor.phar -d "/path/to/my/sourcecode" -t "/path/to/local/github-wiki" --template="/vendor/linchpin/phpdocumentor-template-markdown" --cache-folder "/path/to/store/cache" --title "My code project"`
   * _NOTE_: you may get an error at the end of the parsing - which you can just ignore, all work was done:
   `ERROR In PathGenerator.php line 120: Variable substitution in path /namespaces/{{name}}.md failed, variable "name" did not return a value`
 3. The target directory `/github-wiki` consists of various markdown (.md) files now
