@@ -5,6 +5,10 @@
   "homepage": "https://github.com/linchpin/phpDocumentor-Template-ghwiki",
   "authors": [
     {
+      "name": "oliveratgithub",
+      "role": "Developer"
+    }
+    {
       "name": "Aaron Ware",
       "email": "aaron@linchpin.com",
       "role": "Developer"
@@ -14,6 +18,6 @@
     "issues": "https://github.com/linchpin/phpDocumentor-Template-ghwiki/issues",
     "source": "https://github.com/linchpin/phpDocumentor-Template-ghwiki"
   },
-  "license": "GPLv3",
+  "license": "GPL-3.0-or-later",
   "type": "library"
 }
