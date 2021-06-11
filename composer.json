@@ -1,5 +1,5 @@
 {
-  "name": "linchpin/phpDocumentor-Template-ghwiki",
+  "name": "linchpin/phpdocumentor-template-markdown",
   "version": "1.0.0",
   "description": "phpDocumentor Template for github Wiki. Forked from oliveratgithub/phpDocumentor-Template-ghwiki",
   "homepage": "https://github.com/linchpin/phpDocumentor-Template-ghwiki",
