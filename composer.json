@@ -8,12 +8,12 @@
       "name": "Aaron Ware",
       "email": "aaron@linchpin.com",
       "role": "Developer"
-    },
+    }
   ],
   "support": {
     "issues": "https://github.com/linchpin/phpDocumentor-Template-ghwiki/issues",
     "source": "https://github.com/linchpin/phpDocumentor-Template-ghwiki"
   },
   "license": "GPLv3",
-  "type": "library",
+  "type": "library"
 }
